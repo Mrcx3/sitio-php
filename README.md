@@ -15,6 +15,7 @@ Este proyecto es un sitio web en PHP con estructura MVC básica.
 - **Registro**: vista al darle clic en *Registrarse*.  
 - **Index**: página inicial del sitio.  
 - **Contacto**: accesible desde un botón en el footer, con validaciones en JS.  
+- **Nosotros**: vista accesible desde el footer, con información sobre la página web.  
 - **Lugares para alquilar**: ya implementada, será una de las secciones principales del sitio.  
 
 ## 🌙 Funcionalidades
@@ -22,7 +23,7 @@ Este proyecto es un sitio web en PHP con estructura MVC básica.
 - **Modo mobile**: diseño táctil y responsive, con menú acordeón.  
 - **Validaciones JS**: en el formulario de contacto.  
 - **Filtros**: actualmente funciona solo el filtro de la sección *Explora espacios* (mitad de la página).  
-- **Barra de búsqueda (desktop)**: multi-step interactiva, con tres opciones encadenadas que van apareciendo una tras otra. Al hacer scroll hacia abajo se minimiza y se integra al navbar.
+- **Barra de búsqueda (desktop)**: multi-step interactiva, con tres opciones encadenadas que van apareciendo una tras otra.  
   - Al hacer scroll hacia abajo, la barra se minimiza y se integra al navbar.  
 
 ## 🚀 Próximamente
