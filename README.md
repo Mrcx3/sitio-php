@@ -1,3 +1,10 @@
+# ⚠️ Requisito indispensable
+
+Este proyecto **debe estar dentro de una carpeta llamada `01-PAGINA`** para funcionar correctamente.  
+Ejemplo de ruta local: `htdocs/01-PAGINA/`  
+Acceso desde navegador: `http://localhost/01-PAGINA/`
+
+---
 # Sitio PHP
 
 Este proyecto es un sitio web en PHP con estructura MVC básica.
