@@ -22,7 +22,7 @@ Este proyecto es un sitio web en PHP con estructura MVC básica.
 - **Modo mobile**: diseño táctil y responsive, con menú acordeón.  
 - **Validaciones JS**: en el formulario de contacto.  
 - **Filtros**: actualmente funciona solo el filtro de la sección *Explora espacios* (mitad de la página).  
-- **Barra de búsqueda (desktop)**: estilo similar a la de Airbnb, con pasos visuales que van cambiando de opción (ejemplo: elegir una opción → pasa a la siguiente).  
+- **Barra de búsqueda (desktop)**: multi-step interactiva, con tres opciones encadenadas que van apareciendo una tras otra. Al hacer scroll hacia abajo se minimiza y se integra al navbar.
   - Al hacer scroll hacia abajo, la barra se minimiza y se integra al navbar.  
 
 ## 🚀 Próximamente
