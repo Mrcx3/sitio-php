@@ -2534,3 +2534,65 @@ body.dark-theme .search-block:hover {
 .btn-social-row.apple:hover {
   background-color: #333333;
 }
+/* =====================================================================
+   ESTILOS PARA LA VISTA "NOSOTROS"
+===================================================================== */
+/* Hero mas corto */
+.hero-nosotros {
+  min-height: 55vh;
+}
+
+.about-section {
+  padding: 80px 0;
+  background: var(--white);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.about-card {
+  text-align: center;
+  padding: 40px 30px;
+  background: var(--gray-100);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gray-200);
+  transition: transform var(--transition);
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-md);
+}
+
+.about-icon {
+  width: 64px;
+  height: 64px;
+  background: var(--blue-soft);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  box-shadow: 0 4px 15px rgba(46,109,164,0.3);
+}
+
+/* Soporte para modo oscuro en Nosotros */
+[data-theme="dark"] .about-section {
+  background: var(--white); /* Recorda que --white es oscuro en tu dark mode */
+}
+
+[data-theme="dark"] .about-card {
+  background: var(--gray-100); /* Tu azul oscuro secundario */
+  border-color: var(--gray-200);
+}
+
+[data-theme="dark"] .about-card h3,
+[data-theme="dark"] .about-section .section-title,
+[data-theme="dark"] .about-section .section-sub {
+  color: #FFFFFF !important;
+}

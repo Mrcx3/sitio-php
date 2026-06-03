@@ -27,6 +27,14 @@ if (isset($_GET["ruta"]))
     {
         require_once 'vistas/registro.php';
     }
+    else if ($_GET["ruta"] == "nosotros") 
+    {
+        require_once 'vistas/nosotros.php';
+    }
+    else if ($_GET["ruta"] == "galeria") 
+    {
+        require_once 'vistas/galeria.php';
+    }
     else if ($_GET["ruta"] == "galeria") 
     {
         require_once 'vistas/galeria.php';

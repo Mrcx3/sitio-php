@@ -24,7 +24,7 @@
     <div class="footer-col">
       <h4>Empresa</h4>
       <ul>
-        <li><a href="#">Nosotros</a></li>
+        <li><a href="index.php?ruta=nosotros">Nosotros</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Prensa</a></li>
         <li><a href="#">Carreras</a></li>
